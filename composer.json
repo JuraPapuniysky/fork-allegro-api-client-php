@@ -1,0 +1,25 @@
+{
+    "name": "coffeedesk/allegro-api-client-php",
+    "description": "",
+    "keywords": [
+        "Allegro",
+        "openapi-generated",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AllegroApi\\": "src/"
+        }
+    }
+}
